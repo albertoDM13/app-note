@@ -1,9 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import ButtonAdd from "./button-add";
-import "./style.css";
+import ReactDOM from "react-dom"; /*
+import ButtonAdd from "./button-add";*/
+import "style.css";
 
-class Input_text extends React.Component {
+class Inputtext extends React.Component {
   /*
     construtor(props){
         //super(props);
@@ -26,7 +26,6 @@ class Input_text extends React.Component {
             class="input-text"
             placeholder="Agregar Comentario"
           />
-          <ButtonAdd />
         </div>
         <div class="read-note" />
       </div>
@@ -34,7 +33,7 @@ class Input_text extends React.Component {
   }
 }
 
-ReactDOM.render(<Input_text />, document.getElementById("root"));
+ReactDOM.render(<Inputtext />, document.getElementById("root"));
 
 /*
 export default function App() {

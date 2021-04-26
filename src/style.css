@@ -33,7 +33,7 @@ p {
   border: none;
   text-align: center;
   -moz-user-focus: unset;
-}
+} /*
 
 .input-text:focus-visible {
   outline: none;
@@ -56,3 +56,4 @@ p {
   outline: none;
   box-shadow: none;
 }
+*/
